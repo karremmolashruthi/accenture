@@ -1,0 +1,11 @@
+#sum XOR
+n=int(input())
+arr=list(map(int,input().split(',')))
+odd_index,even_index=0,0
+for i in range(len(arr)):
+    if i%2==0:
+        even_index^=arr[i]
+    else:
+        odd_index+=arr[i]
+diff=odd_index-even_index
+print(diff)
