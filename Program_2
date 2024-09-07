@@ -1,0 +1,7 @@
+#rebound count    
+H=int(input())
+V=int(input())
+Vn=int(input())
+e=V/Vn
+ans=int(H*(e**2))
+print(ans)
