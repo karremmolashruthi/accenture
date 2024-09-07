@@ -1,0 +1,8 @@
+#character count
+s=input()
+n=int(input())
+c=input()
+ans=0
+for i in s:
+    ans=s.count(c)
+print(ans)
