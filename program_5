@@ -1,0 +1,7 @@
+#Name entry
+def name(F,L):
+    return (F.lower()+ ' '+L.upper())
+F=input()
+L=input()
+ans=name(F,L)
+print(ans)
