@@ -1,0 +1,17 @@
+#island life
+def sweet(N,D,E):
+    days=D-(D//7)
+    max_swe=N*days
+    min_to_sur=D*E
+    if min_to_sur>max_swe:
+        print('-1')
+    else:
+        box=min_to_sur//N
+        if min_to_sur%N!=0:
+            box+=1
+    return box 
+N=int(input())
+D=int(input())
+E=int(input())
+ans=sweet(N,D,E)
+print(ans)
