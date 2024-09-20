@@ -1,0 +1,7 @@
+#Hike trial
+def hike(n,arr):
+    return (max(arr))
+n=int(input())
+arr=list(map(int,input().split(',')))
+ans=hike(n,arr)
+print(ans)
