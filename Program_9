@@ -1,0 +1,4 @@
+ip1=int(input())
+ip1=str(ip1)
+op1=ip1.replace('0','5')
+print(int(op1))
